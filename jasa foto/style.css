@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+
+}
+#contactme{
+    padding:5px 10px;
+    background-color: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav {
+    padding: 10px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #666;
+  }
+  /* main */
+  .flex{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 400px;
+    margin-right: 40px;
+    line-height: 50px;
+  }
+ .item > .rounded{
+    
+    border:1px solid;
+    border-radius:100px;
+  }
+
+  /* get */
+
+  .container {
+    margin-top: 200px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #666;
+  }
+  /* about me */
+.about-me {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-1{
+  flex: 3;
+ 
+}
+.col-2{
+  flex: 1;
+}
